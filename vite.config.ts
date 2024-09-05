@@ -4,7 +4,7 @@ import path from "path";
 import { ManifestOptions, VitePWA } from "vite-plugin-pwa";
 
 const pwaConfig: ManifestOptions = {
-  theme_color: "#38a9ff",
+  theme_color: "#ffffff",
   background_color: "#ffffff",
   icons: [
     {
