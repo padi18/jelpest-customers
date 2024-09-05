@@ -19,19 +19,19 @@ export function BottomMenu() {
       <IonTabBar slot="bottom">
         <IonTabButton tab="carta" href="/carta">
           <CartaIcon />
-          <IonLabel>Carta</IonLabel>
+          <IonLabel class='text-xs'>Carta</IonLabel>
         </IonTabButton>
         <IonTabButton tab="cesta" href="/cesta">
           <CestaIcon />
-          <IonLabel>Cesta</IonLabel>
+          <IonLabel class='text-xs'>Cesta</IonLabel>
         </IonTabButton>
         <IonTabButton tab="pedidos" href="/pedidos">
           <PedidosIcon />
-          <IonLabel>Pedidos</IonLabel>
+          <IonLabel class='text-xs'>Pedidos</IonLabel>
         </IonTabButton>
         <IonTabButton tab="config" href="/">
           <ConfIcon /> 
-          <IonLabel>Configuracion</IonLabel>
+          <IonLabel class='text-xs'>Configuracion</IonLabel>
         </IonTabButton>
       </IonTabBar>
     </IonTabs>

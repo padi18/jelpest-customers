@@ -13,7 +13,7 @@ export default function Carta() {
 
         <section className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 m-3">
           {items.map((item: ProductoCarta) => {
-            return <Producto producto={item} />;
+            return <Producto key={item.id} producto={item} />;
           })}
         </section>
       </IonContent>
