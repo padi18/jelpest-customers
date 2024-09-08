@@ -10,7 +10,7 @@ export function ItemEnCesta({ item }: { item: ProductoCarta }) {
             <div className="w-20 flex items-center text-gray-900 ">
               
             </div>
-            <p className="w-8 float-right text-gray-900 ">
+            <p className="float-right text-gray-900 ">
               {item.precio}€
             </p>
         </div>

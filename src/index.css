@@ -63,7 +63,7 @@
 
 @layer base {
   * {
-    @apply border-border text-start font-sans;
+    @apply border-border font-sans;
   }
   body {
     @apply bg-background;

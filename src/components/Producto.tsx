@@ -9,17 +9,17 @@ export function Producto({ producto }: { producto: ProductoCarta }) {
         src={producto.imagen}
         alt=""
       />
-      <div className="flex flex-col justify-between p-4 leading-normal w-full">
+      <div className="flex flex-col justify-between p-4 gap-4 leading-normal w-full">
         <section>
           <div className="flex flex-row justify-between items-center">
-            <h5 className="text-md md:text-xl font-bold tracking-tight text-gray-900">
+            <h5 className="my-0 text-md md:text-xl font-bold tracking-tight text-gray-900">
               {producto.nombre}
             </h5>
-            <p className="font-bold text-md md:text-xl text-gray-900 ">
+            <p className="mt-0 font-bold text-xl text-gray-900 ">
               {producto.precio}€
             </p>
           </div>
-          <p className="font-normal max-md:text-xs text-gray-700 ">
+          <p className="my-1 font-normal max-md:text-xs text-gray-700 ">
             {producto.descripcion}
           </p>
         </section>

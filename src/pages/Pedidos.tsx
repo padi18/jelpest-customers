@@ -1,9 +1,12 @@
 import { Cabecera } from "@/components/Cabecera";
+import { IonContent } from "@ionic/react";
 
 export default function Pedidos() {
   return (
-    <div>
-      <Cabecera titulo='Pedidos'></Cabecera>
-    </div>
+    <IonContent>
+      <div className="main-content">
+        <Cabecera titulo='Pedidos'></Cabecera>
+      </div>
+    </IonContent>
   );
 }

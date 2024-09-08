@@ -7,8 +7,8 @@ interface CabeceraProps {
 
 export function Cabecera({ titulo, children }: CabeceraProps) {
   return (
-    <section className="flex flex-row justify-between items-center gap-4 mx-3 mt-3 mb-1">
-      <h3 className="font-bold mt-1 mb-0">
+    <section className="flex flex-row justify-between items-center gap-4">
+      <h3 className="font-bold my-1">
         {titulo}
       </h3>
       {children ? children : null}
