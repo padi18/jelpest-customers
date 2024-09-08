@@ -11,7 +11,6 @@ export default function Carta() {
         <Cabecera titulo="Carta">
           <IonSearchbar className="p-0 min-h-10" />
         </Cabecera>
-        
 
         <section className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 m-3">
           {items.map((item: ProductoCarta) => {

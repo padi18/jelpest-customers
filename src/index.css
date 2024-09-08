@@ -4,6 +4,8 @@
 
 @layer base {
   :root {
+    --font-geist-sans: "Geist", sans-serif;
+    --font-geist-mono: "Geist Mono", monospace;
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
     --card: 0 0% 100%;
@@ -61,10 +63,10 @@
 
 @layer base {
   * {
-    @apply border-border font-sans;
+    @apply border-border text-start font-sans;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background;
   }
 }
 
