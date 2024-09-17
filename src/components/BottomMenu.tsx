@@ -16,6 +16,7 @@ export function BottomMenu() {
         <Route path="/cesta" component={Cesta} />
         <Route path="/pedidos" component={Pedidos} />
       </IonRouterOutlet>
+      
       <IonTabBar slot="bottom">
         <IonTabButton tab="carta" href="/carta">
           <CartaIcon />

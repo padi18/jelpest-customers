@@ -5,7 +5,7 @@ export function Producto({ producto }: { producto: ProductoCarta }) {
 
     <a className="flex flex-row rounded-lg shadow min-w-full bg-white border border-gray-200 hover:bg-gray-100 ">
       <img
-        className="object-cover h-[128px] w-[128px] rounded-s-lg"
+        className="object-cover h-full w-[128px] rounded-s-lg"
         src={producto.imagen}
         alt=""
       />

@@ -9,7 +9,6 @@ import { setupIonicReact } from '@ionic/react';
 setupIonicReact();
 
 function App() {
-
   return (
     <IonApp>
       <IonReactRouter>
