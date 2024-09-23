@@ -3,6 +3,7 @@ export interface ProductoCarta {
   nombre: string;
   descripcion: string;
   precio: string;
+  cantidad: number;
   stock: number;
   brand: string;
   categoria: string;

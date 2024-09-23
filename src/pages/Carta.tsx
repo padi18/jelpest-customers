@@ -4,6 +4,8 @@ import { Producto } from "@/components/Producto";
 import { items } from "@/mocks/items.json";
 import { ProductoCarta } from "@/interfaces/Producto";
 
+import '@/theme/carta.css'
+
 export default function Carta() {
   return (
     <>

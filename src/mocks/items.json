@@ -1,24 +1,26 @@
 {
-  "items":[
-     {
-        "id":1,
-        "nombre": "Hamburguesa",
-        "descripcion": "Queso, lechuga, tomate y salsa ranchera",
-        "precio": "12,99",
-        "stock": 54,
-        "brand": "Golden",
-        "categoria": "home-decoration",
-        "imagen": "https://static-local.s3.eu-west-2.amazonaws.com/media/hamburguesa.jpg"
-     },
-     {
-        "id":2,
-        "nombre": "Croquetas",
-        "descripcion": "Croquetas de jamon",
-        "precio": "2,99",
-        "stock": 54,
-        "brand": "Golden",
-        "categoria": "home-decoration",
-        "imagen": "https://static-local.s3.eu-west-2.amazonaws.com/media/croquetas.jpg"
-     }
-  ]
+   "items": [
+      {
+         "id": 1,
+         "nombre": "Hamburguesa",
+         "descripcion": "Queso, lechuga, tomate y salsa ranchera",
+         "precio": "12,99",
+         "cantidad": 1,
+         "stock": 54,
+         "brand": "Golden",
+         "categoria": "home-decoration",
+         "imagen": "https://static-local.s3.eu-west-2.amazonaws.com/media/hamburguesa.jpg"
+      },
+      {
+         "id": 2,
+         "nombre": "Croquetas",
+         "descripcion": "Croquetas de jamon",
+         "precio": "2,99",
+         "cantidad": 1,
+         "stock": 54,
+         "brand": "Golden",
+         "categoria": "home-decoration",
+         "imagen": "https://static-local.s3.eu-west-2.amazonaws.com/media/croquetas.jpg"
+      }
+   ]
 }

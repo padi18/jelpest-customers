@@ -6,6 +6,8 @@ import '@ionic/react/css/normalize.css';
 import '@ionic/react/css/structure.css';
 import '@ionic/react/css/typography.css';
 
+import '@/theme/ionic.css'
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <App />
