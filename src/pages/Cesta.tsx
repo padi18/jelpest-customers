@@ -33,12 +33,12 @@ export default function Cesta() {
           <TableBody>
             {items.map((item: ProductoCarta) => (
               <TableRow key={item.id}>
-                <TableCell><img src={item.imagen} alt="" className="object-cover h-auto w-[96px] rounded-md" /></TableCell>
-                <TableCell className="font-medium">{item.nombre}</TableCell>
+                <TableCell><img src={item.imagen} alt="" className="object-cover h-auto w-[60px] rounded-md" /></TableCell>
+                <TableCell className="text-xs">{item.nombre}</TableCell>
                 <TableCell>
                   <ChooseQuantity quantity={item.cantidad} />
                 </TableCell>
-                <TableCell className="text-right font-bold text-lg">
+                <TableCell className="text-right">
                   {item.precio}€
                 </TableCell>
               </TableRow>
@@ -47,7 +47,7 @@ export default function Cesta() {
           <TableFooter>
             <TableRow>
               <TableCell colSpan={3}>Total</TableCell>
-              <TableCell className="text-right precio">15,98€</TableCell>
+              <TableCell className="text-right font-bold text-lg">15,98€</TableCell>
             </TableRow>
           </TableFooter>
         </Table>
@@ -55,13 +55,13 @@ export default function Cesta() {
       </div>
 
       <section className="flex justify-evenly fixed bottom-0 w-full py-4">
-        <Button className="bg-destructive flex flex-row items-center justify-evenly gap-2 h-[45px] w-[182px] hover:bg-destructive/80">
+        <Button className="bg-destructive flex flex-row items-center justify-evenly gap-2 h-[45px] w-1/3 hover:bg-destructive/80">
           <span className="text-lg text-white">
             BORRAR
           </span>
           <X className="h-6 w-6" />
         </Button>
-        <Button className="bg-primary flex flex-row items-center justify-evenly gap-2 h-[45px] w-[182px] hover:bg-primary/80">
+        <Button className="bg-primary flex flex-row items-center justify-evenly gap-2 h-[45px] w-1/3 hover:bg-primary/80">
           <span className="text-lg text-white">
             PEDIR
           </span>
