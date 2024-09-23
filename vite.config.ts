@@ -37,7 +37,7 @@ const pwaConfig: ManifestOptions = {
   lang: "es-ES",
   name: "Jelpest",
   short_name: "Jelpest",
-  start_url: "https://jelpest-customers.vercel.app/carta",
+  start_url: "https://jelpest-customers.vercel.app",
   scope: "https://jelpest-customers.vercel.app/carta",
   description: "Sistema de pedidos para restaurantes",
   id: "jelpest",
